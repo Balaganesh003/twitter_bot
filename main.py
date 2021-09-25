@@ -92,3 +92,6 @@ if bot.upload_speed < 10 or bot.download_speed < 50:
         username=twitter_username, secrect_password=twitter_password, mail_id=twitter_mailid,
         complain_statement=statement
     )
+time.sleep(5)
+bot.driver.quit()    
+    
